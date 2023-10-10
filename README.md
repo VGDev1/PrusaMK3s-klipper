@@ -1,5 +1,10 @@
 # PrusaMK3s-klipper
 
+### Pre-Check
+
+- Get Z offset value from your current firmware (Menu -> Calibration -> Z-offset), you will need it for the Klipper config.
+- Your bed needs to be perpendicular (based on XYZ Calibration). If not you will have to do the skew calibration before printing or you risk crashing your nozzle to the bed.
+
 ### Hardware
 - Rock 4 SE running Armbian
 - Logitech webcam via USB
@@ -12,6 +17,7 @@
 - I am running Input Shaper, I have tuned it using my own ADXL/Pi pico sensor
 - I am using Crownsnest for my camera, update your device to match your own ex: `device: /dev/video5`
 - Do not use stealth mode if you want fast accelerations and speeds
+- Tune PID
 
 ### Tips
 - Tune belts using Prusa https://belt.connect.prusa3d.com/
