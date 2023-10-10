@@ -1,5 +1,7 @@
 # PrusaMK3s-klipper
 
+These configs are for my own printer and they are still under development. See my Voron configs for more advanced example: https://github.com/VGDev1/Voron-V2.4928
+
 ### Pre-Check
 
 - Get Z offset value from your current firmware (Menu -> Calibration -> Z-offset), you will need it for the Klipper config.
