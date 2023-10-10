@@ -27,8 +27,9 @@ These configs are for my own printer and they are still under development. See m
 - Grease bearings with Mobilux EP2
 
 ### Slicer
-I am using Prusaslicer, put this in Custom G-code if you want my macros to work:
-I use the profiles provided for the MK4
+
+I am using Prusaslicer MK4 profiles for printing, put this in Custom G-code under printer settings if you want my macros to work
+
 
 #### Start gcode
 - `M104 S0 ; Stops PS/SS from sending temp waits separately`
