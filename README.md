@@ -10,6 +10,7 @@ These configs are for my own printer and they are still under development. See m
 ### Hardware
 - Rock 4 SE running Armbian
 - Logitech webcam via USB
+- Revo hotend
 
 ### Software
 - I have copied most of my config from here: https://github.com/dz0ny/klipper-prusa-mk3s
@@ -27,6 +28,7 @@ These configs are for my own printer and they are still under development. See m
 
 ### Slicer
 I am using Prusaslicer, put this in Custom G-code if you want my macros to work:
+I use the profiles provided for the MK4
 
 #### Start gcode
 - `M104 S0 ; Stops PS/SS from sending temp waits separately`
